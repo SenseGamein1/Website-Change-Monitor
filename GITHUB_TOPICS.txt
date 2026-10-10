@@ -1,7 +1,0 @@
-python
-website-monitor
-termux
-android
-web-scraping
-change-detection
-open-source
