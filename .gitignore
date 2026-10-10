@@ -1,0 +1,17 @@
+# Private configuration can contain target URLs and request credentials.
+settings.json
+
+# Local monitor state and downloaded page snapshots.
+.website-change-monitor/
+WebsiteBackups/
+RentryBackups/
+backups/
+*.md.tmp
+
+# Python and editor-generated files.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db

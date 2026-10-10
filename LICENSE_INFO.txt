@@ -1,0 +1,5 @@
+LICENSE: MIT (SPDX identifier: MIT)
+
+This permissive open-source license allows anyone to use, copy, modify, publish, distribute, sublicense, and sell copies of the software, including for commercial use. The copyright notice and full permission notice must remain with copies or substantial portions of the software. The software is provided without warranty or liability, as stated in the LICENSE file.
+
+The copyright line currently identifies the project contributors. The project owner may replace it with their preferred name or GitHub username before publishing if they want that attribution displayed.

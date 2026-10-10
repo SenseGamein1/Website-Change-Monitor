@@ -1,0 +1,24 @@
+PROJECT: Website Change Monitor
+
+PURPOSE
+Checks a configured web page for text changes and saves timestamped Markdown snapshots. Intended for ordinary public HTML or text pages, Android Termux, or a computer with Python 3.
+
+FEATURES
+- Configurable HTTP/HTTPS URL and simple HTML content selector.
+- Saves an initial baseline, then changed versions.
+- Persists a hash across restarts.
+- Deletes snapshots older than the configured retention period.
+- Optional Termux:API edit and error notifications.
+- Bounded retry delays and a maximum consecutive error limit.
+- Optional curl DNS-over-HTTPS.
+
+LIMITS
+Not a full browser. JavaScript-only, private/login-only, or bot-protected pages may not work. It does not bypass site restrictions. Polling can miss brief changes. Four-second polling is frequent and may not suit every site.
+
+ORIGINAL RENTRY USE
+This project began as a Rentry backup monitor. For a public Rentry edit URL, set that URL in private settings.json and, when appropriate, use content_selector "textarea". Follow Rentry's current claim/verification workflow. Rentry documents SECRET_EMAIL_ADDRESS for metadata ownership/recovery and SECRET_RAW_ACCESS_CODE separately for protected raw access; its current metadata guide says to request the raw code from Rentry support. Keep secret values only in ignored settings.json.
+
+START
+Read README.md and docs/ANDROID_TERMUX.md or docs/CONFIGURATION.md. Copy settings.example.json to settings.json and edit the local copy.
+LICENSE
+Released under the MIT License; see LICENSE for full terms. Anyone may reuse, modify, and redistribute it subject to preserving the included notices.
