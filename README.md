@@ -1,0 +1,2 @@
+# Website-Change-Monitor
+Open-source Python tool to monitor website text changes and save timestamped Markdown snapshots, with Android Termux support.
